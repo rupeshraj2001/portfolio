@@ -1,0 +1,880 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./Image/DP.jpg" type="image/x-icon">
+    <title>Potpoliyo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./Style.css">
+    <link rel="stylesheet" href="./skill.css">
+</head>
+<body>
+    <nav class="Test1">
+        <canvas id="tutorial"></canvas>
+        <div class="frame">
+            <!-- <button onclick="document.getElementById('TestAbout').scrollIntoView({ behavior: 'smooth' });" class="custom-btn btn-12"><span>Click!</span><span>About</span></button> -->
+            
+            <button onclick="(function() {
+                const element = document.getElementById('TestAbout');
+                const offset = 225; // offset value in pixels
+                const elementPosition = element.getBoundingClientRect().top;
+                const offsetPosition = elementPosition + window.pageYOffset - offset;
+            
+                window.scrollTo({
+                    top: offsetPosition,
+                    behavior: 'smooth'
+                });
+            })()" class="custom-btn btn-12"><span>Click !</span><span>About</span></button>
+            
+            
+            <!-- <button onclick="document.getElementById('skill').scrollIntoView({ behavior: 'smooth' });" class="custom-btn btn-12"><span>Click!</span><span>Skills</span></button> -->
+            
+            <button onclick="(function() {
+                const element = document.getElementById('skill');
+                const offset = 100; // offset value in pixels
+                const elementPosition = element.getBoundingClientRect().top;
+                const offsetPosition = elementPosition + window.pageYOffset - offset;
+            
+                window.scrollTo({
+                    top: offsetPosition,
+                    behavior: 'smooth'
+                });
+            })()" class="custom-btn btn-12"><span>Click !</span><span>Skills</span></button>
+
+            
+            <!-- <button onclick="document.getElementById('TestCertficate').scrollIntoView({ behavior: 'smooth' });" class="custom-btn btn-12"><span>Click!</span><span>Certificates</span></button> -->
+            
+            <button onclick="(function() {
+                const element = document.getElementById('TestCertficate');
+                const offset = 100; // offset value in pixels
+                const elementPosition = element.getBoundingClientRect().top;
+                const offsetPosition = elementPosition + window.pageYOffset - offset;
+            
+                window.scrollTo({
+                    top: offsetPosition,
+                    behavior: 'smooth'
+                });
+            })()" class="custom-btn btn-12"><span>Click !</span><span>Certificates</span></button>
+
+            
+            <!-- <button onclick="document.getElementById('TestProject').scrollIntoView({ behavior: 'smooth' });" class="custom-btn btn-12"><span>Click!</span><span>Project</span></button> -->
+            <button onclick="(function() {
+                const element = document.getElementById('TestProject');
+                const offset = 100; // offset value in pixels
+                const elementPosition = element.getBoundingClientRect().top;
+                const offsetPosition = elementPosition + window.pageYOffset - offset;
+            
+                window.scrollTo({
+                    top: offsetPosition,
+                    behavior: 'smooth'
+                });
+            })()"class="custom-btn btn-12"><span>Click !</span><span>Project</span></button>
+
+        <!-- <button class="custom-btn btn-12"><span>Click !</span><span>Practice</span></button> -->
+        <button onclick="(function() {
+            const element = document.getElementById('practiceZ');
+            const offset = 100; // offset value in pixels
+            const elementPosition = element.getBoundingClientRect().top;
+            const offsetPosition = elementPosition + window.pageYOffset - offset;
+        
+            window.scrollTo({
+                top: offsetPosition,
+                behavior: 'smooth'
+            });
+        })()"class="custom-btn btn-12"><span>Click !</span><span>Practice</span></button>
+
+           
+            <!-- <button class="custom-btn btn-12"><span>Click !</span><span>Contact</span></button>    -->
+            <button onclick="(function() {
+                const element = document.getElementById('contactY');
+                const offset = 100; // offset value in pixels
+                const elementPosition = element.getBoundingClientRect().top;
+                const offsetPosition = elementPosition + window.pageYOffset - offset;
+            
+                window.scrollTo({
+                    top: offsetPosition,
+                    behavior: 'smooth'
+                });
+            })()"class="custom-btn btn-12"><span>Click !</span><span>Contact</span></button>
+        </div> 
+    </nav>
+    <section class="Test2" id="my-gallery">
+        <div id="drag-container">
+            <div id="spin-container">
+          
+              <!-- <img src="https://i.ibb.co/qFwFns0/photo-2023-10-07-17-25-37.jpg" alt="">
+              <img src="https://i.ibb.co/6yjHZ9D/photo-2023-10-07-17-46-50.jpg" alt="">
+              <img src="https://i.ibb.co/2yhht09/photo-2023-10-07-17-46-57.jpg" alt="">
+              <img src="https://i.ibb.co/0K2P3cR/photo-2023-10-07-17-47-09.jpg" alt="">
+              <img src="https://i.ibb.co/rGzrLC1/photo-2023-10-07-17-46-53.jpg" alt="">
+              <img src="https://i.ibb.co/M2Knqtx/Rupesh-pic2.jpg" alt="">
+              <img src="https://i.ibb.co/sV5tzpX/photo-2023-10-07-18-19-07.jpg" alt=""> -->
+
+              <img src="./Image/Rupesh pic3.jpg" alt="IMAGE OF RUPESH RAJ">
+              <img src="./Image/photo_2023-10-07_18-19-07.jpg" alt="IMAGE OF RUPESH RAJ">
+              <img src="./Image/photo_2023-10-07_17-47-09.jpg" alt="IMAGE OF RUPESH RAJ">
+              <img src="./Image/photo_2023-10-07_17-46-57.jpg" alt="IMAGE OF RUPESH RAJ">
+              <img src="./Image/photo_2023-10-07_17-46-53.jpg" alt="IMAGE OF RUPESH RAJ">
+              <img src="./Image/photo_2023-10-07_17-46-50.jpg" alt="IMAGE OF RUPESH RAJ">
+              <img src="./Image/photo_2023-10-07_17-25-37.jpg" alt="IMAGE OF RUPESH RAJ">
+          
+              <!-- Text at center of ground -->
+              <p style="align-items: center;text-align: center;font-size: 300%;justify-content: center;">Hi, I'm Rupesh Raj</p>
+            </div>
+            <div id="ground"></div>
+    </section>
+    <section class="Test3about id="TestAbout">
+        <h1 id="main1">ABOUT ME</h1>
+        <!-- <main id="main1">ABOUT ME</main> -->
+    </section>
+    <section class="Test3 background" id="TestAbout">
+        <div id="app">
+            <div id="hero">
+                <!-- <h1>About Me</h1> -->
+                <h3 style="width: 145%;"></h3>
+            </div>
+        </div>
+    </section>
+    <!-- <section class="Test4"><h1>This is skills</h1></section> -->
+    <section class="Test4" id="skill">
+        <div class="skills-section">
+            <!-- <h1>This is skills</h1> -->
+            <svg viewBox="0 0 1320 300">
+
+                <!-- Symbol -->
+                <symbol id="s-text">
+                  <text text-anchor="middle"
+                        x="50%" y="50%" dy=".35em">
+                    MY SKILLS
+                  </text>
+                </symbol>  
+              
+                <!-- Duplicate symbols -->
+                <use xlink:href="#s-text" class="text"></use>
+                <use xlink:href="#s-text" class="text"></use>
+                <use xlink:href="#s-text" class="text"></use>
+                <use xlink:href="#s-text" class="text"></use>
+                <use xlink:href="#s-text" class="text"></use>
+              </svg>
+            <!-- <div class="skill html">
+                HTML
+                <div class="progress-container">
+                    <div class="progress-bar" style="--progress: 95%;">95%</div>
+                </div>
+            </div>
+            <div class="skill css">
+                CSS
+                <div class="progress-container">
+                    <div class="progress-bar" style="--progress: 85%;">85%</div>
+                </div>
+            </div>
+            <div class="skill bootstrap">
+                BOOTSTRAP
+                <div class="progress-container">
+                    <div class="progress-bar" style="--progress: 80%;">80%</div>
+                </div>
+            </div>
+            <div class="skill javascript">
+                JAVASCRIPT
+                <div class="progress-container">
+                    <div class="progress-bar" style="--progress: 75%;">75%</div>
+                </div>
+            </div>
+            <div class="skill java">
+                JAVA
+                <div class="progress-container">
+                    <div class="progress-bar" style="--progress: 90%;">90%</div>
+                </div>
+            </div>
+            <div class="skill python">
+                PYTHPN
+                <div class="progress-container">
+                    <div class="progress-bar" style="--progress: 85%;">85%</div>
+                </div>
+            </div>
+            <div class="skill c">
+                C
+                <div class="progress-container">
+                    <div class="progress-bar" style="--progress: 75%;">75%</div>
+                </div>
+            </div>
+            <div class="skill sql">
+                SQL
+                <div class="progress-container">
+                    <div class="progress-bar" style="--progress: 90%;">90%</div>
+                 </div>
+            </div>
+            <div class="skill j2ee">
+                J2EE
+                <div class="progress-container">
+                    <div class="progress-bar" style="--progress: 70%;">70%</div>
+                </div>
+            </div>
+            <div class="skill react">
+                React
+                <div class="progress-container">
+                    <div class="progress-bar" style="--progress: 75%;">75%</div>
+                </div>
+            </div>
+            <div class="skill spring">
+                Spring
+                <div class="progress-container">
+                    <div class="progress-bar" style="--progress: 70%;">70%</div>
+                </div>
+            </div>
+            <div class="skill django">
+                Django
+                <div class="progress-container">
+                    <div class="progress-bar" style="--progress: 70%;">70%</div>
+                </div>
+            </div> -->
+            
+        </div>
+        <div id="bubbles"></div>
+        <div id="bubbles2"></div>
+        <div id="bubbles3"></div>
+    </section>
+    
+    <section class="Test4s">
+        <div style="--total: 12;" class="circle-wrapper">
+            <div class="center-element">FOR DETAIL CLICK ON LOGO</div>
+            <input type="radio" name="radio-avatar" id="radio-avatar-1">
+            <label id="avatar-1" for="radio-avatar-1" class="avatar" style="--i:1">
+              <img src="./SkillImage/html5.jpeg" alt="HTML5" style="background-color: white;">
+              <svg viewBox="0 0 300 300">
+                <text fill="currentColor">
+                  <textPath xlink:href="#circlePath">HTML5 - 95 %</textPath>
+                </text>
+              </svg>
+            </label>
+            <input type="radio" name="radio-avatar" id="radio-avatar-2">
+            <label id="avatar-2" for="radio-avatar-2" class="avatar" style="--i:2">
+              <img src="./SkillImage/css.jpeg" alt="CSS" style="background-color: white;">
+              <svg viewBox="0 0 300 300">
+                <text fill="currentColor">
+                  <textPath xlink:href="#circlePath">CSS - 80 %</textPath>
+                </text>
+              </svg>
+            </label>
+            <input type="radio" name="radio-avatar" id="radio-avatar-3">
+            <label id="avatar-3" for="radio-avatar-3" class="avatar" style="--i:3">
+              <img src="./SkillImage/Javascript.jpeg" alt="Javascript" style="background-color: white;">
+              <svg viewBox="0 0 300 300">
+                <text fill="currentColor">
+                  <textPath xlink:href="#circlePath">Javascript - 80 %</textPath>
+                </text>
+              </svg>
+            </label>
+            <input type="radio" name="radio-avatar" id="radio-avatar-4">
+            <label id="avatar-4" for="radio-avatar-4" class="avatar" style="--i:4">
+              <img src="./SkillImage/logo-java-2048.png" alt="Java" style="background-color: white;">
+              <svg viewBox="0 0 300 300">
+                <text fill="currentColor">
+                  <textPath xlink:href="#circlePath">Java - 80 %</textPath>
+                </text>
+              </svg>
+            </label>
+            <input type="radio" name="radio-avatar" id="radio-avatar-5">
+            <label id="avatar-5" for="radio-avatar-5" class="avatar" style="--i:5">
+              <img src="./SkillImage/python.jpeg" alt="Python" style="background-color: white;">
+              <svg viewBox="0 0 300 300">
+                <text fill="currentColor">
+                  <textPath xlink:href="#circlePath">Python - 80 %</textPath>
+                </text>
+              </svg>
+            </label>
+            <input type="radio" name="radio-avatar" id="radio-avatar-6">
+            <label id="avatar-6" for="radio-avatar-6" class="avatar" style="--i:6">
+              <img src="./SkillImage/c.jpeg" alt="C" style="background-color: white;">
+              <svg viewBox="0 0 300 300">
+                <text fill="currentColor">
+                  <textPath xlink:href="#circlePath">C - 75 %</textPath>
+                </text>
+              </svg>
+            </label>
+            <input type="radio" name="radio-avatar" id="radio-avatar-7">
+            <label id="avatar-7" for="radio-avatar-7" class="avatar" style="--i:7">
+              <img src="./SkillImage/MySQL.png" alt="MySQL" style="background-color: white;">
+              <svg viewBox="0 0 300 300">
+                <text fill="currentColor">
+                  <textPath xlink:href="#circlePath">MySQL - 85 %</textPath>
+                </text>
+              </svg>
+            </label>
+            <input type="radio" name="radio-avatar" id="radio-avatar-8">
+            <label id="avatar-8" for="radio-avatar-8" class="avatar" style="--i:8">
+              <img src="./SkillImage/j2ee-programming-250x250.webp" alt="J2EE" style="background-color: white;">
+              <svg viewBox="0 0 300 300">
+                <text fill="currentColor">
+                  <textPath xlink:href="#circlePath">J2EE - 85 %</textPath>
+                </text>
+              </svg>
+            </label>
+            <input type="radio" name="radio-avatar" id="radio-avatar-9">
+            <label id="avatar-9" for="radio-avatar-9" class="avatar" style="--i:9">
+              <img src="./SkillImage/MobileApp.webp" alt="ML" style="background-color: white;">
+              <svg viewBox="0 0 300 300">
+                <text fill="currentColor">
+                  <textPath xlink:href="#circlePath">Mobile Computing - 60 %</textPath>
+                </text>
+              </svg>
+            </label>
+            <input type="radio" name="radio-avatar" id="radio-avatar-10">
+            <label id="avatar-10" for="radio-avatar-10" class="avatar" style="--i:10">
+              <img src="./SkillImage/React.png" alt="React" style="background-color: white;">
+              <svg viewBox="0 0 300 300">
+                <text fill="currentColor">
+                  <textPath xlink:href="#circlePath">React - 75 %</textPath>
+                </text>
+              </svg>
+            </label>
+            <input type="radio" name="radio-avatar" id="radio-avatar-11">
+            <label id="avatar-11" for="radio-avatar-11" class="avatar" style="--i:11">
+              <img src="./SkillImage/SpringBoot.jpeg" alt="Spring Boot" style="background-color: white;">
+              <svg viewBox="0 0 300 300">
+                <text fill="currentColor">
+                  <textPath xlink:href="#circlePath">Spring Boot - 70 %</textPath>
+                </text>
+              </svg>
+            </label>
+            <input type="radio" name="radio-avatar" id="radio-avatar-12">
+            <label id="avatar-12" for="radio-avatar-12" class="avatar" style="--i:12">
+              <img src="./SkillImage/django-1536.png" alt="Django" style="background-color: white;">
+              <svg viewBox="0 0 300 300">
+                <text fill="currentColor">
+                  <textPath xlink:href="#circlePath">Django - 70 %</textPath>
+                </text>
+              </svg>
+            </label>
+          </div>
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 300 300">
+            <defs>
+              <path id="circlePath" d="M 150, 150 m -100, 0 a 100,100 0 0,1 200,0 a 100,100 0 0,1 -200,0" />
+            </defs>
+            <text fill="currentColor" font-size="18" font-family="Arial">
+              <textPath xlink:href="#circlePath"></textPath>
+            </text>
+          </svg>
+      </section>
+    
+
+    <section class="TestCertficate" id="TestCertficate">
+            <span>
+              MY CERTIFICATES
+            </span>
+    </section>
+
+
+
+    <section class="Test5">
+        <!-- <h1>This is certificate</h1> -->
+        <div class="container">
+            <div class="full-view"></div>
+            <div class="preview-list">
+                <ul>
+                    <li>
+                        <input type="radio" id="tab-1" name="gallery-group">
+                        <label for="tab-1">
+                            <div class="tab">
+                                <img src="./Image/java-basic-certificate.jpg" />
+                            </div>
+                        </label>
+                        <div class="content">
+                            <img src="./Image/java-basic-certificate.jpg" />
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" id="tab-2" name="gallery-group">
+                        <label for="tab-2">
+                            <div class="tab">
+                                <img src="./Image/python-certficate.jpg" />
+                            </div>
+                        </label>
+                        <div class="content">
+                            <img src="./Image/python-certficate.jpg" />
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" id="tab-3" name="gallery-group">
+                        <label for="tab-3">
+                            <div class="tab">
+                                <img src="./Image/javascript-intermediate-certificate.jpg" />
+                            </div>
+                        </label>
+                        <div class="content">
+                            <img src="./Image/javascript-intermediate-certificate.jpg" />
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" id="tab-4" name="gallery-group" checked>
+                        <label for="tab-4">
+                            <div class="tab">
+                                <img src="./Image/software-engineer-certificate.jpg" />
+                            </div>
+                        </label>
+                        <div class="content">
+                            <img src="./Image/software-engineer-certificate.jpg" />
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" id="tab-5" name="gallery-group">
+                        <label for="tab-5">
+                            <div class="tab">
+                                <img src="./Image/software-engineer-intern-certificate.jpg" />
+                            </div>
+                        </label>
+                        <div class="content">
+                            <img src="./Image/software-engineer-intern-certificate.jpg" />
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" id="tab-6" name="gallery-group">
+                        <label for="tab-6">
+                            <div class="tab">
+                                <img src="./Image/problem-solving-intermediate-certificate.jpg" />
+                            </div>
+                        </label>
+                        <div class="content">
+                            <img src="./Image/problem-solving-intermediate-certificate.jpg" />
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" id="tab-7" name="gallery-group">
+                        <label for="tab-7">
+                            <div class="tab">
+                                <img src="./Image/sql-advanced-certificate.jpg" />
+                            </div>
+                        </label>
+                        <div class="content">
+                            <img src="./Image/sql-advanced-certificate.jpg" />
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" id="tab-8" name="gallery-group">
+                        <label for="tab-8">
+                            <div class="tab">
+                                <img src="./Image/react-basic-certificate.jpg" />
+                            </div>
+                        </label>
+                        <div class="content">
+                            <img src="./Image/react-basic-certificate.jpg" />
+                        </div>
+                    </li>
+                    <li>
+                        <input type="radio" id="tab-9" name="gallery-group">
+                        <label for="tab-9">
+                            <div class="tab">
+                                <img src="./Image/Rupesh-Raj-Web-development-using-Java-Script.jpg" />
+                            </div>
+                        </label>
+                        <div class="content">
+                            <img src="./Image/Rupesh-Raj-Web-development-using-Java-Script.jpg" />
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="TestProject" id="TestProject">
+        <div class="circle"></div>
+        <div class="circle2"></div>
+        <div class="logo1">MY PROJECTS</div> 
+    </section>
+    <section class="Test6">
+        <!-- <h1>This is Project</h1> -->
+        <div class="maincontainer" onclick="redirectToLink('https://rupeshraj2001.github.io/LearnTyping/')">
+            <div class="back">
+                <h2>Learn Typing</h2>
+                <p>Our Typing Tutor project aims to help users improve their typing skills by encouraging them to type without looking at the keyboard. The program generates random keys for the user to press. If the correct key is pressed, a new key is generated. If an incorrect key is pressed, the correct key blinks on the screen, guiding the user to the correct position. This interactive approach helps users learn touch typing efficiently and effectively.</p>
+                <button class="button-7" role="button"><span class="text">Live Demo</span></button>
+            </div>
+            <div class="front">
+                <div class="Pimage">
+                 <img src="./Image/Learn Typing.jpg" alt="">
+                <!-- <h2>Learn Typing</h2> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="maincontainer" onclick="redirectToLink('https://rupeshraj2001.github.io/MathGame/')">
+            <div class="back">
+                <h2>Maths Game</h2>
+                <p>Welcome to our interactive math game designed to boost your calculation power! In this engaging game, you'll be tasked with filling in the blanks using the correct numbers or operators. This fun and challenging activity sharpens your mental math skills, helping you think quickly and accurately. Get ready to enhance your problem-solving abilities while enjoying a dynamic learning experience!.</p>
+                <button class="button-7" role="button"><span class="text">Live Demo</span></button>
+            </div>
+            <div class="front">
+                <div class="Pimage">
+                 <img src="./Image/MathsGame.png" alt="">
+                <!-- <h2>Maths Game</h2> -->
+                </div>
+            </div>
+        </div>
+
+        <div class="maincontainer" onclick="redirectToLink('https://rupeshraj2001.github.io/SimpleCalculator/')">
+            <div class="back">
+                <h2>Simple Calculator</h2>
+                <p>Introducing our versatile Simple Calculator, designed to handle all your basic arithmetic needs, including addition, subtraction, multiplication, and division. With support for input of more than 20 characters, this calculator ensures smooth and efficient calculation of complex expressions. Whether you're working on simple or extended operations, our calculator offers an easy-to-use solution for accurate results.</p>
+                <button class="button-7" role="button"><span class="text">Live Demo</span></button>
+            </div>
+            <div class="front">
+                <div class="Pimage">
+                 <img src="./Image/SimpleCalculator.png" alt="">
+                <!-- <h2>Learn Typing</h2> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="Test6C">
+        <div class="card-container">
+            <div class="card">
+                <div class="card-content">
+                    <img src="./Image/ClockCube.png" alt="Clock Cube">
+                    <h3>Clock</h3>
+                    <p class="details">The digital cube clock is a stylish timepiece that changes colors every few seconds, combining functionality with a vibrant, modern design for a dynamic and engaging display.</p>
+                    <a href="https://3dcubeclock.netlify.app/" class="view-button Button10">View</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <img src="./Image/SignUp_SignIn.png" alt="Clock">
+                    <h3>SignUp and SignIn</h3>
+                    <p class="details">A 3D SignUp and SignIn form enhances user engagement with depth effects, shadows, and dynamic transitions, creating a visually appealing and interactive experience while maintaining functionality. The design adds modern flair through smooth hover effects and responsive layout.</p>
+                    <a href="https://rupeshraj2001.github.io/SignUp-SignInForm/#" class="view-button Button10">View</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <img src="./Image/Clock1.png" alt="Stop Watch">
+                    <h3>Clock</h3>
+                    <p class="details">The 3-Ring Clock uniquely visualizes time with three concentric rings.As time passes, each ring expands dynamically, blending analog and digital elements for a modern and visually appealing clock design.</p>
+                    <a href="https://rupeshraj2001.github.io/RingClock/" class="view-button Button10">View</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <img src="./Image/StopWatch.png" alt="Learn Typing">
+                    <h3>Stop Watch</h3>
+                    <p class="details">This stopwatch features a Start/Pause button for controlling the timer and a Restart button to reset it. With a sleek design and user-friendly interface, it offers simple and effective time tracking for various tasks.</p>
+                    <a href="https://rupeshraj2001.github.io/StopWatch/" class="view-button Button10">View</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <img src="./Image/SignIn_SignUp.png" alt="Learn Typing">
+                    <h3>SignIn and SignUp</h3>
+                    <p class="details">A flippable SignUp and SignIn form with a glowing animated background creates an interactive and visually striking user experience, seamlessly flipping between forms with vibrant background effects.</p>
+                    <a href="https://rupeshraj2001.github.io/SignInSignUpForm/" class="view-button Button10">View</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <img src="./Image/Love.png" alt="Learn Typing">
+                    <h3>Animated Heart</h3>
+                    <p class="details">An animated love page features a heart animation at the center, symbolizing connection and affection. The names of both individuals are stylishly placed at the top left and bottom right corners, creating a balanced and romantic design.</p>
+                    <a href="https://rupeshraj2001.github.io/love/" class="view-button Button10">View</a>
+                </div>
+            </div>
+            <!-- <div class="card">
+                <div class="card-content">
+                    <img src="./Image/Learn Typing.jpg" alt="Learn Typing">
+                    <h3>Card 7</h3>
+                    <p class="details">This is the detail message for Card 7.</p>
+                    <a href="https://link7.com" class="view-button Button10">View</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <img src="./Image/Learn Typing.jpg" alt="Learn Typing">
+                    <h3>Card 8</h3>
+                    <p class="details">This is the detail message for Card 8.</p>
+                    <a href="https://link8.com" class="view-button Button10">View</a>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-content">
+                    <img src="./Image/Learn Typing.jpg" alt="Learn Typing">
+                    <h3>Card 9</h3>
+                    <p class="details">This is the detail message for Card 9.</p>
+                    <a href="https://link9.com" class="view-button Button10">View</a>
+                </div>
+            </div> -->
+        </div>
+    </section>
+
+    <section class="seeAll">
+        <!-- <div class="hexagon-wrapper">
+            <div class="hexagon">
+              <i class="">See All Projects</i>
+            </div>
+          </div> -->
+          <a href="your-custom-link" class="hexagon-wrapper">
+            <div class="hexagon">
+              <i>See All Projects</i>
+            </div>
+          </a>
+    </section>
+    
+    <section class="practiceZ" id="practiceZ">
+        <h1>PRACTICE</h1>
+    </section>
+
+    <section class="Test6G">
+        <figure>
+            <a href="https://leetcode.com/rupesh2001/" target="_blank">
+                <img src="./SkillImage/LeetCode_Logo.png" alt="LeetCode Logo">
+            </a>
+            <figcaption>
+                <div class="caption-title">LeetCode</div>
+                <div class="caption-full">
+                    I regularly solve LeetCode problems to improve my skills in algorithms and data structures. This practice has strengthened my problem-solving abilities, focusing on areas like dynamic programming, graph theory, and complexity optimization.
+                    <br>
+                    <a href="https://leetcode.com/rupesh2001/" target="_blank" class="btn-link btn19 btn-bubble">View My LeetCode Profile</a>
+                </div>
+            </figcaption>
+        </figure>
+    
+        <figure>
+            <a href="https://www.hackerrank.com/rupesh2001" target="_blank">
+                <img src="./SkillImage/hackerrank-logo-latest.png" alt="Hackerrank">
+            </a>
+            <figcaption>
+                <div class="caption-title">HackerRank</div>
+                <div class="caption-full">
+                    I actively engage with coding challenges on HackerRank to enhance my proficiency in algorithms, data structures, and coding best practices. This has helped me improve in areas like problem-solving, optimization, and clean code development.
+                    <br>
+                    <a href="https://www.hackerrank.com/rupesh2001" target="_blank" class="btn-link btn19 btn-bubble">View My HackerRank Profile</a>
+                </div>
+            </figcaption>
+        </figure>
+    </section>
+    
+    
+    
+
+
+
+
+
+
+
+
+    <section class="Test7" id="contactY">
+        <footer class="footer">
+            <div class="row">
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <div class="cta-text">
+                            <h4>Find Me</h4>
+                            <span>K.R. Road Gandhi Bazar, Basavanagudi,<br> Bengaluru, Karnataka 560004</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="fas fa-phone"></i>
+                        <div class="cta-text">
+                            <h4>Call Me</h4>
+                            <span>+91 9507073997</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-md-4 mb-30">
+                    <div class="single-cta">
+                        <i class="far fa-envelope-open"></i>
+                        <div class="cta-text">
+                            <h4>Mail Me</h4>
+                            <span>rupeshraj1012001 @gmail.com</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="row2">
+                <a href="https://github.com/rupeshraj2001" id="footerA">
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fa-brands fa-github"></i>
+                            <div class="cta-text">
+                                <h4>Github</h4>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <a href="https://www.linkedin.com/in/rupesh2001" id="footerA">
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            <i class="fa-brands fa-linkedin"></i>
+                            <div class="cta-text">
+                                <h4>Linkedin</h4>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </footer>
+
+
+
+
+            <svg
+            xmlns="http://www.w3.org/2000/svg"
+            xmlns:xlink="http://www.w3.org/1999/xlink"
+            viewBox="0 24 150 28"
+            preserveAspectRatio="none"
+            id="svg"
+            >
+            <defs>
+                <path
+                id="gentle-wave"
+                d="M-160 44c30 0 
+                58-18 88-18s
+                58 18 88 18 
+                58-18 88-18 
+                58 18 88 18
+                v44h-352z"
+                />
+            </defs>
+            <g class="waves">
+                <use
+                xlink:href="#gentle-wave"
+                x="50"
+                y="0"
+                fill="#03ffff"
+                fill-opacity=".2"
+                />
+                <use
+                xlink:href="#gentle-wave"
+                x="50"
+                y="3"
+                fill="#03ffff"
+                fill-opacity=".5"
+                />
+                <use
+                xlink:href="#gentle-wave"
+                x="50"
+                y="6"
+                fill="#03ffff"
+                fill-opacity=".9"
+                />
+            </g>
+            </svg>
+    </section>
+
+
+    
+
+
+    <script src="./script.js"></script>
+    <script src="./home.js"></script>
+    <script src="./skills.js"></script>
+    <script type="module">
+    import { particlesCursor } from 'https://unpkg.com/threejs-toys@0.0.8/build/threejs-toys.module.cdn.min.js';
+
+const pc = particlesCursor({
+    el: document.getElementById('app'),
+    gpgpuSize: 512,
+    colors: [0x00fffc, 0x0000ff],
+    color: 0xff0000,
+    coordScale: 0.5,
+    noiseIntensity: 0.005,
+    noiseTimeCoef: 0.0001,
+    pointSize: 2,
+    pointDecay: 0.0025,
+    sleepRadiusX: 250,
+    sleepRadiusY: 250,
+    sleepTimeCoefX: 0.001,
+    sleepTimeCoefY: 0.002
+});
+
+document.body.addEventListener('click', () => {
+    pc.uniforms.uColor.value.set(Math.random() * 0xffffff);
+    pc.uniforms.uCoordScale.value = 0.001 + Math.random() * 2;
+    pc.uniforms.uNoiseIntensity.value = 0.0001 + Math.random() * 0.001;
+    pc.uniforms.uPointSize.value = 1 + Math.random() * 10;
+});
+
+document.body.addEventListener('click', () => {
+    pc.uniforms.uColor.value.set(Math.random() * 0xffffff);
+    pc.uniforms.uCoordScale.value = 0.001 + Math.random() * 2;
+    pc.uniforms.uNoiseIntensity.value = 0.0001 + Math.random() * 0.001;
+    pc.uniforms.uPointSize.value = 1 + Math.random() * 10;
+    
+    setTimeout(() => {
+        pc.uniforms.uColor.value.set(0x000000);
+        pc.uniforms.uCoordScale.value = 0.001;
+        pc.uniforms.uNoiseIntensity.value = 0.0001;
+        pc.uniforms.uPointSize.value = 0;
+    }, 2000);
+});
+
+
+// Array containing the text
+const textArray = [
+"Greetings", "I'm", "Rupesh", "Raj,", "a", "23-year-old", "enthusiast", "driven", "by", "a", "dual", "passion", "for", "technology", "and", "literature.", "My", "educational", "voyage", "commenced", "at", "St.", "Paul", "Public", "School,", "where", "I", "completed", "my", "10th", "class", "in", "2016,", "followed", "by", "Sri", "Chaitanya", "Techno", "School,", "where", "I", "compleated", "my", "12th", "class", "in", "2018.", "These", "formative", "years", "not", "only", "equipped", "me", "with", "foundational", "knowledge", "but", "also", "instilled", "in", "me", "a", "curiosity", "to", "explore", "diverse", "fields.",
+
+"My", "academic", "path", "then", "led", "me", "to", "Lalit", "Narayana", "Mithila", "University,", "where", "I", "pursued", "a", "Bachelor's", "degree", "in", "English", "(Honors),", "graduating", "in", "2022.", "Engaging", "deeply", "with", "English", "literature", "and", "language", "allowed", "me", "to", "appreciate", "the", "nuances", "of", "communication", "and", "storytelling,", "skills", "that", "I", "find", "indispensable", "in", "both", "personal", "and", "professional", "contexts.",
+
+"Throughout", "my", "undergraduate", "journey,", "I", "never", "lost", "sight", "of", "my", "fascination", "with", "technology.", "This", "parallel", "interest", "in", "technology", "and", "the", "arts", "has", "granted", "me", "a", "unique", "perspective,", "blending", "analytical", "thinking", "with", "creativity—an", "amalgamation", "that", "I", "believe", "is", "increasingly", "vital", "in", "today's", "interconnected", "world.", "This", "led", "me", "to", "embark", "on", "a", "Master's", "in", "Computer", "Applications", "(MCA)", "program", "at", "IGNOU,", "where", "I", "am", "currently", "refining", "my", "technical", "prowess", "and", "exploring", "the", "intricate", "world", "of", "software", "engineering.",
+
+"My", "aspiration", "is", "to", "become", "a", "software", "engineer,", "a", "profession", "that", "resonates", "deeply", "with", "my", "penchant", "for", "problem-solving", "and", "my", "desire", "to", "create", "impactful", "digital", "solutions.", "I", "am", "captivated", "by", "the", "dynamic", "nature", "of", "software", "development,", "where", "innovation", "and", "continuous", "learning", "are", "not", "just", "encouraged", "but", "essential", "for", "staying", "ahead.", "The", "MCA", "program's", "rigorous", "curriculum", "is", "equipping", "me", "with", "crucial", "skills", "in", "programming,", "system", "analysis,", "software", "design,", "and", "more,", "laying", "a", "solid", "foundation", "for", "my", "future", "career", "endeavors.",
+
+"In", "addition", "to", "my", "formal", "education,", "I", "am", "actively", "engaged", "in", "enhancing", "my", "coding", "skills", "through", "platforms", "like", "HackerRank,", "LeetCode,", "CodeChef,", "HackerEarth,", "InterviewBit,", "and", "Kaggle.","etc.", "These", "platforms", "offer", "a", "plethora", "of", "challenges", "and", "real-world", "problems", "that", "push", "me", "to", "think", "critically", "and", "creatively.", "They", "also", "provide", "an", "invaluable", "opportunity", "to", "apply", "theoretical", "knowledge", "to", "practical", "scenarios,", "keeping", "me", "abreast", "of", "current", "industry", "practices", "and", "trends.",
+
+"Beyond", "coding", "challenges,", "I", "am", "enthusiastic", "about", "collaborating", "on", "projects", "that", "require", "interdisciplinary", "skills,", "where", "I", "can", "leverage", "both", "my", "literary", "background", "and", "technical", "acumen.", "I", "believe", "that", "effective", "software", "engineering", "involves", "not", "only", "writing", "code", "but", "also", "understanding", "user", "needs,", "communicating", "effectively", "within", "teams,", "and", "continuously", "refining", "solutions", "based", "on", "feedback", "and", "data.",
+
+"Looking", "ahead,", "I", "am", "eager", "to", "contribute", "to", "the", "ever-evolving", "field", "of", "software", "engineering.", "I", "see", "it", "as", "a", "realm", "where", "I", "can", "merge", "my", "diverse", "educational", "background", "and", "passion", "for", "technology", "to", "make", "meaningful", "contributions.", "Whether", "it's", "developing", "efficient", "algorithms,", "building", "user-friendly", "interfaces,", "or", "optimizing", "system", "performance,", "I", "am", "committed", "to", "pursuing", "excellence", "and", "making", "a", "positive", "impact.",
+
+"In", "conclusion,", "my", "journey", "from", "a", "literature", "enthusiast", "to", "a", "budding", "software", "engineer", "is", "marked", "by", "a", "relentless", "pursuit", "of", "knowledge,", "a", "thirst", "for", "innovation,", "and", "a", "dedication", "to", "mastering", "the", "intricacies", "of", "both", "language", "and", "code.", "I", "am", "excited", "about", "the", "opportunities", "that", "lie", "ahead", "and", "am", "prepared", "to", "embrace", "the", "challenges", "of", "this", "dynamic", "field", "with", "enthusiasm", "and", "determination."
+
+];
+
+const displayText = async () => {
+    const h1Element = document.querySelector('#hero h3');
+    while (true) {
+        h1Element.innerHTML = ''; // Clear the content before starting
+        for (const word of textArray) {
+            h1Element.innerHTML += word + ' ';
+            await new Promise(resolve => setTimeout(resolve, 100)); // Delay of 100ms
+        }
+    }
+};
+
+// Start displaying text on load
+window.onload = displayText;
+    </script>
+
+    <script>
+        function redirectToLink(url) {
+            window.location.href = url;
+        }
+    </script>
+    <script>
+        const figure = document.querySelectorAll('figure');
+        const caption = document.querySelectorAll('figcaption');
+        const fullCaption = document.querySelectorAll('.caption-full');
+        const figureImage = document.querySelectorAll('figure img');
+
+        figure.forEach((fig, idx) => {
+            fig.addEventListener('mouseover', () => {
+                caption[idx].classList.add('expanded');
+                fullCaption[idx].classList.add('visible');
+                figureImage[idx].classList.add('image-filter');
+            });
+            
+            fig.addEventListener('mouseout', () => {
+            caption[idx].classList.remove('expanded');
+            fullCaption[idx].classList.remove('visible');
+            figureImage[idx].classList.remove('image-filter');
+            });
+        });
+    </script>
+    <script src="./skill.js"></script>
+</body>
+</html>
